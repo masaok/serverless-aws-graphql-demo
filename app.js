@@ -4,6 +4,9 @@ var express = require('express');
 var graphqlHTTP = require('express-graphql');
 var { buildSchema } = require('graphql');
 
+// https://github.com/graphql/express-graphql/issues/10
+const bodyParser = require('body-parser');
+
 var users = [
   {
     id: 1,
@@ -93,5 +96,8 @@ app.use('/graphql', graphqlHTTP({
   rootValue: root,
   graphiql: true,
 }));
-app.listen(4000, () => console.log('Now browse to localhost:4000/graphql'));
+app.use(bodyParser.text({ type: 'application/graphql' }));
+
 module.exports.server = sls(app)
+
+// app.listen(4000, () => console.log('Now browse to localhost:4000/graphql'));
