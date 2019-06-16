@@ -11,6 +11,15 @@ Combination of:
 
 https://serverless.com/blog/running-scalable-reliable-graphql-endpoint-with-serverless/
 
+# Quickstart
+
+## Standalone server
+
+```
+npm install
+npm start
+```
+
 # Queries
 
 ## Get Single User
