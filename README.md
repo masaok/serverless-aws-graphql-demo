@@ -7,6 +7,10 @@ Combination of:
 - https://dev.to/adnanrahic/how-to-deploy-a-nodejs-application-to-aws-lambda-using-serverless-2nc7
   - https://github.com/masaok/serverless-nodejs-app-demo
 
+## Also...
+
+- https://github.com/dherault/serverless-offline
+
 # Tutorial Source
 
 https://serverless.com/blog/running-scalable-reliable-graphql-endpoint-with-serverless/
