@@ -7,6 +7,10 @@ Combination of:
 - https://dev.to/adnanrahic/how-to-deploy-a-nodejs-application-to-aws-lambda-using-serverless-2nc7
   - https://github.com/masaok/serverless-nodejs-app-demo
 
+## Also...
+
+- https://github.com/dherault/serverless-offline
+
 # Tutorial Source
 
 https://serverless.com/blog/running-scalable-reliable-graphql-endpoint-with-serverless/
@@ -174,3 +178,10 @@ Result:
   }
 }
 ```
+# Network Request/Response
+## OK Request Response (app.listen() local test)
+![OK Request/Response](https://i.imgur.com/AmTWq0E.jpg)
+## BAD Response (Serverless Offline test)
+![BAD](https://i.imgur.com/iAsHbH8.jpg)
+## Side by Side
+![side by side](https://i.imgur.com/GtUcxNZ.jpg)
