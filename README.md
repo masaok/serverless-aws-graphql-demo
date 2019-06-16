@@ -178,3 +178,6 @@ Result:
   }
 }
 ```
+# Network Request/Response
+## OK Request Response (app.listen() local test)
+![OK Request/Response](https://i.imgur.com/AmTWq0E.jpg)
